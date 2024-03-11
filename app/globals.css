@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
+
+
+@theme {
+  --font-family-display: 'Satoshi', 'sans-serif';
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-@theme {
-  --font-family-display: 'Satoshi', 'sans-serif';
-
-}
-
-
 
 @media (prefers-color-scheme: dark) {
   :root {
